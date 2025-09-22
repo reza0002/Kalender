@@ -1,8 +1,8 @@
 package StudentKalender;
 
-public class Student {
-    public String navn;
-    public String farve;
+public class Student extends Fag{
+    private String navn;
+    private String farve;
 
     public Student(String navn, String farve) {
         this.navn = navn;
