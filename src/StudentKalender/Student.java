@@ -1,11 +1,11 @@
 package StudentKalender;
 
-public class Student extends Fag{
-    private String navn;
+public class Student {
+    private String dage;
     private String farve;
 
-    public Student(String navn, String farve) {
-        this.navn = navn;
+    public Student(String dage, String farve) {
+        this.dage = dage;
         this.farve = farve;
     }
 }

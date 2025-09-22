@@ -1,19 +1,10 @@
 package StudentKalender;
 
+import java.util.Arrays;
+
 public class Kalender {
-    public int[] days;
+    public String[] days = {"Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag", "Søndag"};
 
-
-    public Kalender(int days) {
-        days[] day = new Kalender[6];
-
-        days[0] = new Kalender("Mandag");
-        days[1] = new Kalender("Tirsdag");
-        days[2] = new Kalender("Onsdag");
-        days[3] = new Kalender("Torsdag");
-        days[4] = new Kalender("Fredag");
-        days[5] = new Kalender("Lørdag");
-        days[6] = new Kalender("Søndag");
 
 
 
@@ -23,4 +14,4 @@ public class Kalender {
 
 
     }
-}
+
