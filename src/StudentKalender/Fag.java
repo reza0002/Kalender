@@ -1,11 +1,13 @@
 package StudentKalender;
 
 public class Fag {
-    public String navn;
-    public String farve;
+    public String[] fag;
 
-    public Fag(String navn, String farve) {
-        this.navn = navn;
-        this.farve = farve;
+    public Fag(String skolefag) {
+        fag = new String [2];
+
+        fag[0] = skolefag;
+        fag[1]= skolefag;
+        fag[2] = skolefag;
     }
 }
