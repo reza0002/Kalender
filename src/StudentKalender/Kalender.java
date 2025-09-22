@@ -4,16 +4,16 @@ public class Kalender {
     public int[] days;
 
 
-    public Kalender(int days) {
+    public Kalender(String days) {
         days[] day = new days[6];
 
-        days[0] = new days("Mandag");
-        days[1] = new days("Tirsdag");
-        days[2] = new days("Onsdag");
-        days[3] = new days("Torsdag");
-        days[4] = new days("Fredag");
-        days[5] = new days("Lørdag");
-        days[6] = new days("Søndag");
+        days[0] = new Kalender("Mandag");
+        days[1] = new Kalender("Tirsdag");
+        days[2] = new Kalender("Onsdag");
+        days[3] = new Kalender("Torsdag");
+        days[4] = new Kalender("Fredag");
+        days[5] = new Kalender("Lørdag");
+        days[6] = new Kalender("Søndag");
 
 
 

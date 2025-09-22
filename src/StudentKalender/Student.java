@@ -1,6 +1,6 @@
 package StudentKalender;
 
-public class Student extends Fag{
+public class Student{
     private String navn;
     private String farve;
 

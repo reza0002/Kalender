@@ -11,4 +11,5 @@ public class Fag {
         fag[2] = new Fag ("Weekend", "Gul");
 
     }
+
 }
