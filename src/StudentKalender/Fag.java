@@ -9,5 +9,6 @@ public class Fag {
         fag[0] = skolefag;
         fag[1]= skolefag;
         fag[2] = skolefag;
+
     }
 }
